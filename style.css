@@ -1,0 +1,288 @@
+body {
+    background: #f0f2f5;
+    color: #1c1e21;
+    direction: ltr;
+    line-height: 1.34;
+    margin: 0;
+    padding: 0;
+    unicode-bidi: embed;
+}
+
+.signup {
+    margin: 100px auto 30px auto;
+    padding: 0 20px 10px 20px;
+    width: 400px;
+    border-radius: 8px;
+    border: 1px solid #ccd0d5;
+    background-color: #fff;
+    position: relative;
+}
+h2 {
+    font-size: 25px;
+    line-height: 16px;
+    text-align: left;
+    margin : 20px 0 0 0;
+}
+
+.top p {
+    font-size: 15px;
+    line-height: 24px;
+    text-align: left;
+    color: #606770;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    margin: 5px 0 0 0;
+}
+
+.name {
+    width: 100%;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+#firstname {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+#surname {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.bottom input{
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+input {
+    font-size: 15px;
+    font-family: inherit;
+    font-size: 15px;
+    line-height: 16px;
+    padding: 12px;
+}
+
+.dob1 select {
+    box-sizing: border-box;
+    min-width: 128px;
+}
+.dob1 p {
+    color: #606770;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 20px;
+    margin-bottom: 10px;
+    margin-top: 2px;
+}
+.date {
+    position: relative;
+}
+#day {
+    float: left;
+    margin-right: 2%;
+    padding: 0 8px;
+    font-size: 15px;
+    font-weight: normal;
+    height: 36px;
+    line-height: 20px;
+}
+
+#year {
+    float: right;
+    padding: 0 8px;
+    font-size: 15px;
+    font-weight: normal;
+    height: 36px;
+    line-height: 20px;
+}
+
+#month {
+    padding: 0 8px;
+    font-size: 15px;
+    font-weight: normal;
+    height: 36px;
+    line-height: 20px;
+}
+
+.gender p {
+    color: #606770;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 20px;
+    margin-bottom: 10px;
+    margin-top: 2px;
+}
+
+.person {
+    display: flex;
+    flex-wrap: wrap;
+    width: 412px;
+    margin: -8px -6px -6px;
+}
+
+.person div {
+    background-color: #fff;
+    border: 1px solid #ccd0d5;
+    box-sizing: border-box;
+    display: inline-block;
+    flex: 1 0 auto;
+    font-weight: normal;
+    height: 36px;
+    margin: 8px 6px 6px;
+    padding: 0;
+    position: relative;
+    width: auto;
+    border-radius: 6px;
+}
+.person label {
+    box-sizing: border-box;
+    color: #1c1e21;
+    display: inline-block;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 36px;
+    padding: 0 28px 0 10px;
+    width: 100%;
+}
+.person input {
+    height: 36px;
+    margin: 0;
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
+.content {
+    width: 399px;
+    color: #777;
+    font-size: 11px;
+}
+.button {
+    text-align: center;
+}
+button {
+    font-weight: bold;
+    text-align: center;
+    background: none;
+    background-color: #00a400;
+    border: none;
+    border-radius: 6px;
+    box-shadow: none;
+    color: #fff;
+    font-size: 18px;
+    height: 36px;
+    overflow: hidden;
+    padding: 0 32px;
+    text-shadow: none;
+}
+input , select {
+    border: 1px solid #ccd0d5;
+    border-radius: 6px;
+}
+
+.error {
+  position: fixed;
+ 
+}
+
+.img {
+    display: none;
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/yXxUpbkhEIi.png);
+    background-size: 24px 168px;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    background-position: 0 0;
+    left: auto;
+    right: 9px;
+    top: 10px;
+    transform: scale(.76);
+}
+.textbox {
+    box-sizing: border-box;
+    width: 49%;
+    margin-right: 8px;
+    float: left;
+    position: relative;
+}
+
+.img.invalid {
+    display: inline-block; /* Hiển thị biểu tượng nếu trạng thái là không hợp lệ */
+}
+.errorField{
+    display: none;
+    height: 0;
+    position: absolute;
+    z-index: 202;
+}
+.errorBox1 {
+    position: absolute;
+    padding: 18px 0;
+}
+.errorBox2{
+    position: absolute;
+    padding-right: 18px;
+    padding-bottom: 18px;
+}
+
+.errorMess {
+    background-color: #be4b49;
+    border: 0;
+    border-radius: 2px;
+    box-shadow: 0 0 0 1px rgba(139, 3, 0, .75), 0 1px 10px rgba(0, 0, 0, .35);
+    color: #fff;
+    position: relative;
+    font-size: 15px;
+    max-width: 300px;
+    padding: 13px;
+}
+
+.triangle1 {
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yu/r/C2YGRZUGNiG.png);
+    background-repeat: no-repeat;
+    background-size: 22px 72px;
+    background-position: 0 -58px;
+    height: 11px;
+    top: 7px;
+    width: 22px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.triangle2 {
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yu/r/C2YGRZUGNiG.png);
+    background-repeat: no-repeat;
+    background-size: 22px 72px;
+    background-position: 0 -22px;
+    height: 22px;
+    right: 7px;
+    top: 3px;
+    width: 11px;
+    overflow: hidden;
+    position: absolute;
+}
+.bonus {
+    position: absolute;
+    right: 9px;
+    left: auto;
+    width: 22px;
+    height: 22px;
+    top: -25px;
+}
+
+.bonus.gender {
+    position: absolute;
+    right: 30px;
+    left: auto;
+    width: 22px;
+    height: 22px;
+    top: 310px;
+}
